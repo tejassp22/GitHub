@@ -1,0 +1,34 @@
+TO create new Project :
+mdkir Project(Project name)
+
+To change directory:
+cd Project 
+
+To see what is present inside the folder:
+ls
+
+All the history is stored in folder name .git. To access that folder.:
+To intialize that use command: git init
+
+to show all hidden files :
+ls -a
+ls .git
+
+to create new file:
+touch names.txt(file name)
+
+to check all changes made but not in the history of our project(untract files): 
+git status
+
+to add everything in staging area
+git add . (to save everything in history)
+
+to commit:
+git commit -m "file added"
+
+To add something in file:
+vi names.txt
+
+TO check what is inside file:
+cat commands.txt
+
